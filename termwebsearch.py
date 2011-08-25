@@ -94,6 +94,8 @@ class termsearch():
         cursor.execute(sql % self.frame.cb_cat.Value)
         self.subcategories = cursor.fetchall()
 
+        # Limpia combobox
+        self.frame.cb_subcat.Clear()
         # Primero agrega un campo vacio
         self.frame.cb_subcat.Append("")
         # Despues carga las subcategorias
