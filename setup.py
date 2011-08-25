@@ -6,7 +6,7 @@ setup (name='TermWebSearch',
       description='Buscador de terminos',
       author='Jesus Roldan',
       author_email='jesus.roldan@gmail.com',
-      url='http://jesusroldan.com',
+      url='https://github.com/xeBuz/TermWebSeach/',
       license='GPLv3',
       py_modules=['termwebsearch']
 )
